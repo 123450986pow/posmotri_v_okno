@@ -53,7 +53,7 @@ ol {
 .content {
   display:flex;
   align-content: center;
-  justify-content: center;
+  justify-items: center;
   gap: 30px;
   max-width: 1140px;
 }
