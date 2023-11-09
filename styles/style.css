@@ -15,6 +15,7 @@ html {
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
+  padding-left: 30px;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -161,11 +162,6 @@ ol {
 
 .content__accent {
   color: #545050;
-  font-family: 'Oswald', sans-serif;
-  font-size: 75px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 94%;
   text-transform: uppercase;
 }
 
@@ -190,7 +186,7 @@ ol {
   text-decoration: underline;
 }
 
-.content__card-link:active {
+.content__card-link_current:active {
   background-color: #545050;
 }
 
@@ -199,7 +195,7 @@ ol {
 }
 
 .content__card-link:focus-visible {
-  border: solid 1px #fff;
+  outline: solid 1px #fff;
 }
 
 .content__video-card-description {
@@ -244,7 +240,7 @@ ol {
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  color: rgba(255, 255, 255, 0.70);
+  color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -283,7 +279,7 @@ ol {
   background-color: #fff;
 }
 
-.search-form__label:hover {
+.search-form__checkbox-list .search-form__label:hover {
   text-decoration: underline;
 }
 
