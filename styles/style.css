@@ -162,11 +162,6 @@ ol {
 
 .content__accent {
   color: #545050;
-  text-transform: uppercase;
-}
-
-.content__video-card-description-container {
-  margin-right: 10px;
 }
 
 .content__card-link {
@@ -186,7 +181,11 @@ ol {
   text-decoration: underline;
 }
 
-.content__card-link_current:active {
+.content__card-link:active {
+  background-color: #545050;
+}
+
+.content__card-link_current {
   background-color: #545050;
 }
 
@@ -207,8 +206,6 @@ ol {
   margin-top: 6px;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   width: 200px;
