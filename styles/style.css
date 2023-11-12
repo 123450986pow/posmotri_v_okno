@@ -10,12 +10,11 @@ html {
 
 .page {
   display: flex;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
-  padding-left: 30px;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -94,8 +93,9 @@ ol {
 }
 
 .content__list {
-  max-height: 290px;
+  height: 290px;
   overflow-y: auto;
+  position: relative;
 }
 
 .content__list-item:not(:last-child) {
@@ -134,10 +134,6 @@ ol {
 }
 
 .result__video-container {
-  position: relative;
-}
-
-.content__list {
   position: relative;
 }
 
